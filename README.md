@@ -1,4 +1,23 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+# Pick a Dawg! -- A single player dog guessing game
+## Overview
+Build a dog breed memorization game.
+
+We are using a free public API called Dog API.
+
+The webapp is built using React and Redux.
+
+## Features
+1. The webapp shows the user a random picture of a dog (the Dog API provides an endpoint for this purpose), and it asks the user to choose the correct breed name from a list of 3 options.
+2. When a user makes the correct choice, they proceed to the next question.
+3. If the user makes the wrong choice, the game shows them the right answer, then pauses for 2 seconds before proceeding to the next question.
+4. The game keeps track of the user's performance and displays a success rate (in percentages) on the page.
+5. Occasionally the user gets a different question type. The game shows them the name of a breed and 3 images of dogs. The user must select the correct image that matches the breed name.
+6. The user is able to use the keyboard to select their answer for quicker gameplay (using Tab)
+7. If a user sees a breed for the first time, the game gives them an easy hint so they can learn the right answer.
+8. The game starts off with only 3 breeds and gradually increases in difficulty. When the user has a streak of 10 correct answers, the game adds another 3 breeds into the mix, and so on.
+
+#This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
